@@ -1,0 +1,111 @@
+#logoheader, a, .inscrire
+{
+    display: flex;
+    justify-content :space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header, section
+{
+    margin: 10px 200px 20px;
+}
+#alignheberact
+{
+    margin-left: auto;
+    padding-inline-start: 2rem;
+}
+.heberdeco
+{
+    border-top: 3px solid #0065FC;
+    
+    /*text-decoration: overline solid #0065FC 2px;*/
+    /*line-height: 3em;*/
+   
+}
+.actideco:hover
+{
+    border-top: 3px solid #0065FC;
+    
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type : none;
+    align-items: center;
+    margin: 0 10px;
+    
+}
+li
+{
+    
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 3em;
+}
+a
+{
+    text-decoration: none;
+}
+img
+{
+    width:75px;
+    height:40px;
+}
+body
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;  
+}
+#sectionfiltres
+{
+    display: flex;
+    align-items: center;
+    justify-items:center;
+    margin-left: 12px;
+    margin-top: 40px;
+
+}
+/*#filtre
+{
+    display: flex;
+   justify-content: space-around;
+    margin: auto;
+    font-weight: bold;
+    
+}*/
+#filtre
+ {
+    display: flex;
+    border-radius: 100px;
+    min-height: 10px;
+    min-width: 10px;
+    background-color: #DEEBFF;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+    margin-left: -2px;
+ }  
+ .filtecobutton, .filtfambutton, .filtrombutton, .filtanimbutton
+{
+    display: flex;
+    border: 2px solid #d9d9d9;
+    border-radius: 3rem;
+    margin: auto;
+    border-width: medium;
+    min-width: 150px;
+    min-height: 30px;
+    padding-top: 10px;
+    border-left-style:unset;
+    cursor: pointer;
+    background-color:none ;
+    justify-content: center;
+    font-weight: bold;
+}  
+#filtre:hover
+{
+    
+    
+    background-color: #DEEBFF;
+}
